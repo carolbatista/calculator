@@ -14,35 +14,33 @@
     <div id="calculator">
 
         <div class="display">
-            <p>
-                25 + 25,6 + 40 + 10
-            </p>
+            <p id="values"></p>
             <div class="total"> 100,6</div>
     </div>
     <div class="container-buttons">
-       <a href="#" id="percent"><div class="btn-fn gradient2">%</div></a>
-       <a href="#" id="invertSinal"><div class="btn-fn gradient2">+/-</div></a>
-       <a href="#" id="clear"><div class="btn-fn gradient2">C</div></a>
-       <a href="#" id="divide"> <div class="btn-op color9156e1">/</div></a>
+       <a href="javascript:;" id="percent" onclick="numDisplay('%')"><div class="btn-fn gradient2">%</div></a>
+       <a href="javascript:;" id="invertSinal" onclick="numDisplay('1')"><div class="btn-fn gradient2">+/-</div></a>
+       <a href="javascript:;" id="clean" onclick="clearX()"><div class="btn-fn gradient2">C</div></a>
+       <a href="javascript:;" id="divide" onclick="numDisplay('/')"> <div class="btn-op color9156e1">/</div></a>
 
-       <a href="#" id="n7"><div class="btn-fn">7</div></a> 
-       <a href="#" id="n8"><div class="btn-fn">8</div></a>
-       <a href="#" id="n9"> <div class="btn-fn">9</div></a>
-       <a href="#" id="mult"> <div class="btn-op color8d52dd">X</div></a>
+       <a href="javascript:;" id="n7" onclick="numDisplay('7')"><div class="btn-fn">7</div></a> 
+       <a href="javascript:;" id="n8" onclick="numDisplay('8')"><div class="btn-fn">8</div></a>
+       <a href="javascript:;" id="n9" onclick="numDisplay('9')"> <div class="btn-fn">9</div></a>
+       <a href="javascript:;" id="mult" onclick="numDisplay('*')"> <div class="btn-op color8d52dd">X</div></a>
 
-       <a href="#" id="n4"><div class="btn-fn">4</div></a> 
-       <a href="#" id="n5"><div class="btn-fn">5</div></a>
-       <a href="#" id="n6"> <div class="btn-fn">6</div></a> 
-       <a href="#" id="sub"> <div class="btn-op color894ed91">-</div></a>
+       <a href="javascript:;" id="n4" onclick="numDisplay('4')"><div class="btn-fn">4</div></a> 
+       <a href="javascript:;" id="n5" onclick="numDisplay('5')"><div class="btn-fn">5</div></a>
+       <a href="javascript:;" id="n6" onclick="numDisplay('6')"> <div class="btn-fn">6</div></a> 
+       <a href="javascript:;" id="sub" onclick="numDisplay('-')"> <div class="btn-op color894ed91">-</div></a>
 
-       <a href="#" id="n1"><div class="btn-fn">1</div></a> 
-       <a href="#" id="n2"><div class="btn-fn">2</div></a>
-       <a href="#" id="n3"> <div class="btn-fn">3</div></a> 
-       <a href="#" id="sum"> <div class="btn-op color8547d9">+</div></a>
+       <a href="javascript:;" id="n1" onclick="numDisplay('1')"><div class="btn-fn">1</div></a> 
+       <a href="javascript:;" id="n2" onclick="numDisplay('2')"><div class="btn-fn">2</div></a>
+       <a href="javascript:;" id="n3" onclick="numDisplay('3')"> <div class="btn-fn">3</div></a> 
+       <a href="javascript:;" id="sum" onclick="numDisplay('+')"> <div class="btn-op color8547d9">+</div></a>
 
-       <a href="#" id="n0"><div class="btn-fn">0</div></a> 
-       <a href="#" id="virgul"><div class="btn-fn">,</div></a>
-       <a href="#" id="equal"> <div class="result">=</div></a> 
+       <a href="javascript:;" id="n0" onclick="numDisplay('0')"><div class="btn-fn">0</div></a> 
+       <a href="javascript:;" id="virgul" onclick="numDisplay(',')"><div class="btn-fn">,</div></a>
+       <a href="javascript:;" id="equal" onclick="result('=')"> <div class="result">=</div></a> 
 
 
     </div>    
