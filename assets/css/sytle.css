@@ -1,0 +1,167 @@
+
+@font-face {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Lato-Thin.woff") format('woff');
+}
+
+@font-face {
+    
+    font-family: 'Lato-regular';
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Lato-Light.woff") format('woff');
+}
+
+*{
+
+margin: 0 auto;
+padding: 0;
+
+}
+
+#container {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+#calculator {
+
+    width: 368px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.display {
+
+    height: 105px;
+    width: 97.5%;
+    background-color: #000;
+    padding: 35px 10px 0 0;
+
+}
+
+.container-buttons {
+
+    height:460px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20pt;
+
+}
+
+p {
+    font-size: 14pt;
+    color: #d98192;
+    font-weight: bold;    
+    font-family: 'lato-regular', sans-serif;
+    text-align: right;
+}
+
+.total {
+
+    font-size: 50pt;
+    color: #fff;
+    text-align: right;
+}
+
+
+.btn-fn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 92px;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 100%);
+    color: #212121;
+}
+
+.btn-fn:hover{
+    opacity: 60%;
+}
+
+
+.btn-op {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 92px;
+    color: #FFF;
+    font-size: 18pt;
+}
+
+.btn-op:hover{
+    opacity: 80%;
+}
+
+
+.color9156e1 {
+
+    background: #9156e1;
+
+}
+
+.color8d52dd {
+
+    background: #8d52dd;
+
+}
+
+.color894ed91 {
+
+    background: #894ed9;
+    font-size: 35pt;
+
+}
+
+.color8547d9 {
+
+    background: #8547d9;
+    font-size: 23pt;
+
+}
+
+.result {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    width: 184px;
+    background: #e62f89;
+    color: #FFF;
+    font-size: 27pt;
+
+}
+
+.result:hover {
+    opacity: 80%;
+}
+ 
+.gradient2 {
+
+    background: rgb(247,247,247);
+    background: linear-gradient(135deg, rgba(247,247,247,1) 0%, rgba(241,241,241,1) 100%);
+
+}
+
+a {
+text-decoration: none;
+color: inherit
+}
